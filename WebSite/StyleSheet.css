@@ -1,0 +1,64 @@
+﻿body {
+}
+
+.navcon {
+    width: 600px;
+    margin: auto;
+}
+
+.nav1 {
+    background-color: #808080;
+    padding:10px;
+   
+}
+
+.nav1 a:link, .nav1 a:visited {
+        background-color: #8d6d6d;
+        color: #fff;
+        display: block;
+        padding:10px 5px;
+       
+       
+    }
+
+    .nav1 a:hover {
+        color: #ffd800;
+        background-color:#000;
+    }
+
+.viewcon{
+        width:512px;
+        height:497px;
+        background-image:url(../images/tab_box.png);
+    }
+.tabmenu{
+    height:38px;
+   
+    }
+    .tabmenu ul {
+        padding: 0;
+        margin: 0 0 0 3px;
+    }
+.tabmenu ul li{
+    list-style-type:none;
+    float:left;
+   
+}
+.tabmenu ul li a:link,.tabmenu ul li a:visited {
+    height:38px;
+    width:106px;
+    line-height:38px;
+    text-align:center;
+    color:black;
+    text-decoration:none;
+    display:block;
+  }
+ .tabmenu ul li a:hover {
+     background-image:url(../images/tab.png);
+
+  }
+ .listnews{
+     padding:10px 30px;
+ }
+
+

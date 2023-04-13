@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+ <siteMapNode url="Default10.aspx" title="首页" description="首页">
+   
+    <siteMapNode url="~/admin/admin_defult.aspx" title="管理员首页"  description="管理员首页">
+      <siteMapNode url="~/admin/admin_login.aspx" title="管理员登录页面"  description="管理员登录页面" />
+      <siteMapNode url="~/admin/delete_admin.aspx" title="管理员删除页面"  description="管理员删除页面" />
+      <siteMapNode url="~/admin/insert.aspx" title="管理员插入页面"  description="管理员插入页面" />
+    </siteMapNode>
+
+    <siteMapNode url="~/customer/customer_defult.aspx" title="用户首页"  description="用户首页" >
+      <siteMapNode url="~/customer/cart.aspx" title="购物车页面"  description="购物车页面" />
+      <siteMapNode url="~/customer/orderlist.aspx" title="订单页面"  description="订单页面" />
+    </siteMapNode>
+   <siteMapNode url="Default11.aspx" title="客户案例" description=""/>
+   <siteMapNode url="Default12.aspx" title="产品展示" description=""/>
+   <siteMapNode url="Default13.aspx" title="联系我们" description=""/>
+
+ </siteMapNode>
+</siteMap>
